@@ -1,0 +1,100 @@
+.container {
+  border-left: 520px solid #022c44;
+  height: 730px;
+  background-color: #f7f9fc;
+  position: relative;
+}
+
+.card {
+  width: 62%;
+  margin: auto;
+  /* padding-top: 50px; */
+  transform: translate(30px, 120px);
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #4390bc;
+}
+
+.subHeading {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #071c4d;
+  line-height: 125%;
+}
+
+.descText {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  color: rgba(38, 50, 56, 0.59);
+}
+
+.theImage {
+  position: absolute;
+  transform: translate(-75%, 25%);
+}
+
+.imageVector-1 {
+  float: left;
+  border: #2a6ebb;
+  background-color: #2a6ebb;
+  padding: 5px;
+  border-radius: 5px;
+}
+.imageVector-2 {
+  float: left;
+  border: #2a6ebb;
+  background-color: #e366b1;
+  padding: 5px;
+  border-radius: 5px;
+}
+.imageVector-3 {
+  float: left;
+  border: #2a6ebb;
+  background-color: #89c2e6;
+  padding: 5px;
+  border-radius: 5px;
+}
+.imageVector-4 {
+  float: left;
+  border: #2a6ebb;
+  background-color: #ffe08b;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.pointers {
+  padding-top: 30px;
+}
+
+.pointer {
+  padding-bottom: 19px;
+  padding-left: 60px;
+}
+
+.pointer ::before {
+
+}
+
+.subsHead {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: #162958;
+}
+
+.subsDesc {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(38, 50, 56, 0.59);
+}

@@ -1,0 +1,38 @@
+<div class="container">
+  <img class="image-bg" src="../../assets/images/SVGS/Group-6978.png" alt="">
+  <div class="form">
+<div *ngIf="verified">
+<img class="success" src="../../assets/images/Group-6946.png" alt="">
+<div class="desc-2" style="text-decoration: none; ">
+  Verified Successfully
+</div>
+<div class="button">
+  Done
+</div>
+</div>
+    <div *ngIf="!verified">
+      <div class="heading">Enter Verification Code</div>
+      <div class="desc-1">We have just sent a verification code <span style="color: black;">to
+          abc@gmail.com & +91-xxxxxxxxxx </span></div>
+      <div class="input">
+
+      </div>
+      <div>
+        <img src="" alt="">
+      </div>
+      <div class="desc-1">
+        Didn't recieve OTP code?
+      </div>
+      <div class="desc-2">
+        Resend code
+      </div>
+      <div (click)="verified = true" class="button">
+        Verify
+      </div>
+    </div>
+  </div>
+  <img class="charImage" src="../../assets/images/SVGS/Character.png" alt="">
+  <img *ngIf="!verified" class="msgImage" src="../../assets/images/SVGS/Group 6975.png" alt="">
+  <img class="planeImage" src= "{{ verified? '../../../../assets/images/Plant.png' : '../../assets/images/SVGS/_Group_.png' }}" alt="">
+  <img *ngIf="verified" class="sheildImage" src="../../assets/images/Frame.png" alt="">
+</div>

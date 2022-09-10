@@ -1,0 +1,26 @@
+<div class="container">
+  <img class="freeWebsite" src="../../assets/images/Group 6963.png" alt="">
+  <div class="form" [formGroup]="regiterationForm">
+    <div class='warning-text' *ngIf="!regiterationForm.valid && regiterationForm.touched">
+      Please enter valid details.
+    </div>
+    <div class="formHeading">
+      Fill out the form to register for free website
+    </div>
+    <input type="text" name="name" class="input-field" placeholder="Name" formControlName="name">
+    <input type="number" name="phoneNumber" class="input-field" placeholder="Phone Number" formControlName="phoneNumber">
+    <input type="email" name="email" class="input-field" placeholder="Email" formControlName="email">
+    <input type="text" name="CLN" class="input-field" placeholder="Company Legal Name" formControlName="cln">
+    <div class="shortFields-Container">
+      <input type="text" name="name" class="input-field-short" placeholder="GSTI Number (Optional)" formControlName="gsti">
+      <input type="text" name="name" class="short input-field-short" placeholder="Refferal Code" formControlName="refferelCode">
+    </div>
+    <div class="captcha">
+      <!-- <div class="g-recaptcha" data-sitekey="{{ sitekey.site_key }}" data-callback="removeFakeCaptcha3"></div>
+      <input type="checkbox" class="captcha-fake-field3" tabindex="-1" required> -->
+    </div>
+    <div (click)="otpVerification()" class="btn">
+      Register
+    </div>
+  </div>
+</div>

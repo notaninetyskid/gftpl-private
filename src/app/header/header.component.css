@@ -1,0 +1,20 @@
+
+.container {
+  height: fit-content;
+  padding: 30px 40px 0px;
+}
+
+.img-pic {
+  width: 24%;
+}
+
+@media only screen and (max-width: 700px) {
+  .container {
+    text-align: center;
+    padding: 50px 80px 0px;
+  }
+  .img-pic {
+    /* padding: 0px 80px; */
+    width: 100%;
+  }
+}
